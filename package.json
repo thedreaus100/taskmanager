@@ -1,7 +1,7 @@
 {
   "name": "trunk_club",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extremely Fast Task Manager",
   "main": "redis-test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
