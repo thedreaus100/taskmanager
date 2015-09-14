@@ -89,6 +89,10 @@
 
 >> retrieves all tasks for a given user from starting hour to ending hour
 
+### Query Params
+
+>> filter=[complete || incomplete] //filters items according to their completion status
+
 ### To Do
 *DELETE* method for every *GET* Method
 
