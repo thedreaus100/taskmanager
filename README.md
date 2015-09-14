@@ -2,6 +2,14 @@
 
 High performing webservice which allows clients to peform CRUD operations against tasks.
 
+### Run
+
+>>assuming nodejs is install
+
+`npm install`
+
+`node index.js`
+
 ### Create Tasks
 
 *__PUT /{username}/{year}/{month}/{day}/{hour} HTTP__*
