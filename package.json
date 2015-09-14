@@ -1,0 +1,19 @@
+{
+  "name": "trunk_club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "redis-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "node-uuid": "^1.4.3",
+    "redis": "^1.0.0",
+    "underscore": "^1.8.3"
+  }
+}
