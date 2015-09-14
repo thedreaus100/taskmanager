@@ -35,43 +35,43 @@ High performing webservice which allows clients to peform CRUD operations agains
 *__DELETE /{username}/{id}__*
 
 ### Retrieve Task
-*__GET /{username}/{id}__*
+*__GET /{username}/task/{id}__*
 >> Pretty Straight Forward
 
 ### Retrieve Tasks
-*__GET /{username}__*
+*__GET /{username}/tasks/__*
 
 >> retrieves all tasks for a given user
 
-*__GET /{username}/{year}__*
+*__GET /{username}/tasks/{year}__*
 
 >> retrieves all tasks for a given user within a specified year
 
-*__GET /{username}/{start}/to/{end}__*
+*__GET /{username}/tasks/{start}/to/{end}__*
 
 >> retrieves all tasks for a given user from starting year to ending year
 
-*__GET /{username}/{year}/{month}__*
+*__GET /{username}/tasks/{year}/{month}__*
 
 >> retrieves all tasks for a given user within a specified month
 
-*__GET /{username}/{year}/{start}/to/{end}__*
+*__GET /{username}/tasks/{year}/{start}/to/{end}__*
 
 >> retrieves all tasks for a given user from starting month to ending month
 
-*__GET /{username}/{year}/{month}/{day}__*
+*__GET /{username}/tasks/{year}/{month}/{day}__*
 
 >> retrieves all tasks for a given user within a specified day
 
-*__GET /{username}/{year}/{month}/{start}/to/{end}__*
+*__GET /{username}/tasks/{year}/{month}/{start}/to/{end}__*
 
 >> retrieves all tasks for a given user from starting day to ending day
 
-*__GET /{username}/{year}/{month}/{day}/{hour}__*
+*__GET /{username}/tasks/{year}/{month}/{day}/{hour}__*
 
 >> retrieves all tasks for a given user within a specified hour
 
-*__GET /{username}/{year}/{month}/{day}/{start}/to/{end}__*
+*__GET /{username}/tasks/{year}/{month}/{day}/{start}/to/{end}__*
 
 >> retrieves all tasks for a given user from starting hour to ending hour
 
