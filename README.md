@@ -94,8 +94,9 @@
 >> filter=[complete || incomplete] //filters items according to their completion status
 
 ### To Do
-*DELETE* method for every *GET* Method
+* *DELETE* method for every *GET* Method
+* User intersections
+* User unions
+* Eventual Persist Tasks
 
-User intersections
 
-User unions
