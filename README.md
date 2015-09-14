@@ -25,29 +25,25 @@
 *__PUT /{username}/{year}/{month}/{day}/{hour} HTTP__*
 >> creates tasks for a give user with a specified due date
 
-`
-{
-   "id":"auto"
-   "title":"Title", //Mandatory Throws 400 error if not found
-   "completed":"true", || false" // defaults to false
-   "date_created":"auto",
-   "date_modified":"auto"
-   "due_date":":year/:month/:day/:hour"
-}
-`
+    {
+      "id":"auto",
+      "title":"Title" //Mandatory will return 400 error if not set
+      "completed":"true || false" //defaults to true
+      "date_created":"auto",
+      "date_modified":"auto"
+      "due_date":":year/:month/:day/:hour"
+    }
 
 ### Update Tasks
  *__POST /{username}/{id}__*
  >> Updates User's specified task
  
-`
-{
-  "title":"Title", //opt
-   "completed":"true", || false" //opt
-   "date_modified":"auto"
-   "due_date":"date" //opt
-}
-`
+    {
+      "title":"Title", //opt
+      "completed":"true", || false" //opt
+      "date_modified":"auto"
+      "due_date":"date" //opt
+    }
 
 ### Remove Tasks
 *__DELETE /{username}/{id}__*
