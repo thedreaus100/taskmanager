@@ -1,12 +1,22 @@
 # taskmanager
 
-High performing webservice which allows clients to peform CRUD operations against tasks.
+>> High performing webservice which allows clients to peform CRUD operations against tasks.
 
-### Run
+### Dependencies
+   
+   * NPM
+   * NodeJS
+   * Redis
 
+### Installation
 >>assuming nodejs is install
 
 `npm install`
+
+### Configuration
+>>in `server-config/default.json` specify __REDIS's__ __host__ and __port__
+
+### Run
 
 `node index.js`
 
